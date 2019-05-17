@@ -1,11 +1,21 @@
 package homework.linkedlist;
 
-public class Node {
-    int value;
+/**
+ * Node class.
+ */
+public class Node<T> {
     Node next;
+    Node previous;
+    T value;
 
-    Node(int value) {
+
+    /**
+     * Constructor.
+     * @param value generic data.
+     */
+    public Node(T value) {
         this.value =value;
+        this.previous= null;
         this.next = null;
     }
 }
