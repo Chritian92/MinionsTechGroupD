@@ -8,7 +8,6 @@ public class Node<T> {
     Node previous;
     T value;
 
-
     /**
      * Constructor.
      * @param value generic data.

@@ -7,7 +7,6 @@ public class CustomList implements IList {
     Node head;
     Node tail;
 
-
     /**
      * {@inheritDoc}
      */
@@ -117,5 +116,4 @@ public class CustomList implements IList {
         }
         return currentNode;
     }
-
 }

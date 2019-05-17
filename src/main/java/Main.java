@@ -1,5 +1,8 @@
 import homework.linkedlist.CustomList;
 
+/**
+ * Main class.
+ */
 public class Main {
 
     public static void main(String args[]){
@@ -13,7 +16,6 @@ public class Main {
         cus.addLast(6);
         cus.add(0, 10);
         cus.printList();
-
         System.out.println("*****************Remove*************");
         cus.remove(2);
         cus.printList();
@@ -24,5 +26,4 @@ public class Main {
         cus.removeLast();
         cus.printList();
     }
-
 }

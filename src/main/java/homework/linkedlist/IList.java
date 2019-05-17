@@ -50,5 +50,4 @@ public interface IList<T> {
      * Function that print a list.
      */
     void printList();
-
 }
