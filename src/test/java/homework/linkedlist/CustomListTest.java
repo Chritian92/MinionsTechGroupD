@@ -10,14 +10,14 @@ import org.testng.annotations.Test;
  * Class Custom list with unit test.
  */
 public class CustomListTest {
-    private CustomList customList;
+    private CustomList<Object> customList;
 
     /**
      * Init list
      */
     @BeforeClass
     public void setup() {
-        customList = new  CustomList();
+        customList = new  CustomList<Object>();
     }
 
 
