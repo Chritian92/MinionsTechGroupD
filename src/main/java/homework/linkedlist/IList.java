@@ -50,4 +50,14 @@ public interface IList<T> {
      * Function that print a list.
      */
     void printList();
+
+    /**
+     * Function that involve get first.
+     */
+    Node getFirst();
+
+    /**
+     * Function that involve get last.
+     */
+    Node getLast();
 }

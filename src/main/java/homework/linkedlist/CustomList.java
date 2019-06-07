@@ -3,7 +3,7 @@ package homework.linkedlist;
 /**
  * Custom list class.
  */
-public class CustomList implements IList {
+public class CustomList <T> implements IList <T>{
     Node head;
     Node tail;
 
@@ -67,6 +67,7 @@ public class CustomList implements IList {
         Node newNode = new Node(value);
         if (tail == null) {
             tail = newNode;
+            head = newNode;
         } else {
             tail.next = newNode;
             newNode.previous = tail;
@@ -84,7 +85,7 @@ public class CustomList implements IList {
             currentNode = currentNode.next;
         }
         currentNode.next = currentNode.next.next;
-        currentNode.next = currentNode;
+        currentNode.next.next.previous = currentNode;
     }
 
     /**
@@ -115,5 +116,21 @@ public class CustomList implements IList {
             currentNode = currentNode.next;
         }
         return currentNode;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public Node getFirst() {
+        return head;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public Node getLast() {
+        return tail;
     }
 }

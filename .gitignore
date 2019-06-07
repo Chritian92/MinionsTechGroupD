@@ -28,11 +28,5 @@ hs_err_pid*
 *.iml
 *.properties
 *.MF
-.idea/sonarlint/issuestore/6/9/696918ae6115b2c95b80610a40b48adaf1d1c610
-.idea/sonarlint/issuestore/9/a/9ad7532c8d077e42c728e510ad97144240aba584
-*.pb
-.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302
-.idea/sonarlint/issuestore/d/e/deb51adea2f3a168ad052426df542460db5454d1
-.idea/sonarlint/issuestore/e/4/e44a8606ce010ad9b89aafdfcee2ab49afbf6d10
-.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35
-*.xml___jb_tmp___
+.idea/
+build/
