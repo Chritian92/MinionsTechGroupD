@@ -1,3 +1,4 @@
+import homework.customTree.Tree;
 import homework.linkedlist.CustomList;
 
 /**
@@ -25,5 +26,22 @@ public class Main {
         System.out.println("******RemoveLast***");
         cus.removeLast();
         cus.printList();
+
+
+
+        Tree customTree = new Tree();
+
+        customTree.add(2);
+        customTree.add(6);
+        customTree.add(8);
+        customTree.add(1);
+        customTree.add(6);
+        customTree.add(7);
+        customTree.add(9);
+
+        customTree.OrdenTree();
+
+
+
     }
 }
